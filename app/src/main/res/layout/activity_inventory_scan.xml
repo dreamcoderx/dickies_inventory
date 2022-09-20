@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_background"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    tools:context="com.btw.guess.activities.InventoryScanActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayoutCompat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Switch
+            android:id="@+id/swAutoSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AUTO SAVE"
+            app:layout_constraintStart_toStartOf="@+id/etRow"
+            app:layout_constraintTop_toBottomOf="@+id/etRow" />
+
+        <TextView
+            android:id="@+id/tvTotRack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TOTAL RACK"
+            app:layout_constraintBottom_toTopOf="@+id/tvTotalRack"
+            app:layout_constraintStart_toStartOf="@+id/tvTotalRack" />
+
+
+        <TextView
+            android:id="@+id/tvTotalRack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="TOTAL RACK"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvRack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RACK"
+            app:layout_constraintBottom_toTopOf="@+id/etRack"
+            app:layout_constraintStart_toStartOf="@+id/etRack" />
+
+
+        <EditText
+            android:id="@+id/etRack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTotalRack" />
+
+
+        <EditText
+            android:id="@+id/etBarcode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etRow" />
+
+        <EditText
+            android:id="@+id/etQty"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etBarcode" />
+
+        <TextView
+            android:id="@+id/tvLineNo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etQty" />
+
+        <TextView
+            android:id="@+id/tvBarcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BARCODE"
+            app:layout_constraintBottom_toTopOf="@+id/etBarcode"
+            app:layout_constraintStart_toStartOf="@+id/etBarcode" />
+
+        <TextView
+            android:id="@+id/tvQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QTY"
+            app:layout_constraintBottom_toTopOf="@+id/etQty"
+            app:layout_constraintStart_toStartOf="@+id/etQty" />
+
+        <TextView
+            android:id="@+id/lblLineNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LINE NO"
+            app:layout_constraintBottom_toTopOf="@+id/tvLineNo"
+            app:layout_constraintStart_toStartOf="@+id/tvLineNo" />
+
+
+        <EditText
+            android:id="@+id/etRow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etRack" />
+
+
+        <TextView
+            android:id="@+id/tvRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ROW"
+            app:layout_constraintBottom_toTopOf="@+id/etRow"
+            app:layout_constraintStart_toStartOf="@+id/etRow" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="SAVE"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvStatus" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="STATUS"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvLineNo" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

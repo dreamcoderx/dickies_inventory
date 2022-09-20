@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/btnDeleteScan"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_margin="5dp"
+        android:background="#ffff"
+        android:src="@drawable/ic_delete_black_24dp"
+        android:text="Delete"
+        app:layout_constraintBottom_toBottomOf="@+id/btnEditScan"
+        app:layout_constraintStart_toEndOf="@+id/btnEditScan"
+        app:layout_constraintTop_toTopOf="@+id/tvRvScanDateTime"
+        app:tint="#03A9F4" />
+
+    <ImageView
+        android:id="@+id/btnEditScan"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_margin="5dp"
+        android:background="#ffff"
+        android:src="@drawable/ic_edit_black_24dp"
+        android:text="Edit"
+        app:layout_constraintBottom_toBottomOf="@+id/tvRvScanDateTime"
+        app:layout_constraintStart_toEndOf="@+id/tvRvScanDateTime"
+        app:layout_constraintTop_toTopOf="@+id/tvRvScanDateTime"
+        app:tint="#03A9F4" />
+
+    <TextView
+        android:id="@+id/tvRvScanId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="SCAN ID"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvRvScanBarcode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="BARCODE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvRvScanId"
+        app:layout_constraintTop_toTopOf="@+id/tvRvScanId" />
+
+    <TextView
+        android:id="@+id/tvRvScanRack"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:text="RACK"
+        app:layout_constraintEnd_toStartOf="@+id/tvRvScanRow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRvScanId" />
+
+    <TextView
+        android:id="@+id/tvRvScanRow"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="ROW"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvRvScanRack"
+        app:layout_constraintTop_toTopOf="@+id/tvRvScanRack" />
+
+    <TextView
+        android:id="@+id/tvRvLineNo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:text="LINE NO"
+        app:layout_constraintEnd_toStartOf="@+id/tvRVScanQty"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRvScanRack" />
+
+    <TextView
+        android:id="@+id/tvRVScanQty"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="QTY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvRvLineNo"
+        app:layout_constraintTop_toTopOf="@+id/tvRvLineNo" />
+
+    <TextView
+        android:id="@+id/tvRvScanBy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="SCAN BY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRvLineNo" />
+
+    <TextView
+        android:id="@+id/tvRvScanDateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="SCAN BY"
+        app:layout_constraintStart_toEndOf="@+id/tvRvScanBy"
+        app:layout_constraintTop_toTopOf="@+id/tvRvScanBy" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

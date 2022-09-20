@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">INVENTORY APP</string>
+    <string name="menu_settings">Settings</string>
+    <string name="barcode">Barcode</string>
+    <string name="btnAutomaticBarcode">Automatic Control</string>
+    <string name="btnClientBarcode">Client Control</string>
+    <string name="btnScannerSelectBarcode">Scanner Selection Example</string>
+    <string name="btnSwitchScanners">Switch Scanners</string>
+    <string name="txtBarcodeTitle">Press the device\'s scan button to scan a barcode.</string>
+    <string name="txtMainTitle">Click on below buttons for options.</string>
+    <string name="txtPreamble">Preamble</string>
+    <string name="editPreamble" />
+    <string name="editPostamble" />
+    <string name="txtPostamble">Postamble</string>
+    <string name="error_message_name">Invalid Name</string>
+    <string name="error_message_email">Invalid E-Mail</string>
+    <string name="error_message_password">Invalid Password</string>
+    <string name="error_password_match">Password Do Not Match</string>
+    <string name="success_message">Log-In Success</string>
+    <string name="error_email_exists">E-Mail Not Exists</string>
+    <string name="error_valid_name_password">Invalid User or Password</string>
+    <string name="hint_name">Enter Name</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="text_not_member">Not Member</string>
+    <string name="text_login">LOG IN</string>
+    <string name="hint_kanban">KANBAN</string>
+    <string name="hint_location">LOCATION</string>
+    <string name="hint_actual">ACTUAL</string>
+    <string name="text_status">STATUS</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_register">Register</string>
+    <string name="hint_email">Enter E-Mail</string>
+
+</resources>
