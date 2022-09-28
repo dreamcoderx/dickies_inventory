@@ -6,108 +6,108 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml
+8-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml
+9-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-11-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:7:5-81
-11-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:7:22-78
+11-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:7:5-81
+11-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:7:22-78
 12    <uses-permission android:name="com.honeywell.decode.permission.DECODE" />
-12-->[:DataCollectionLib] D:\btw\guess_inventory\DataCollectionLib\build\.transforms\6ffde9f299e8b04a57539c8474e8d7fa\transformed\jetified-DataCollection\AndroidManifest.xml:11:5-78
-12-->[:DataCollectionLib] D:\btw\guess_inventory\DataCollectionLib\build\.transforms\6ffde9f299e8b04a57539c8474e8d7fa\transformed\jetified-DataCollection\AndroidManifest.xml:11:22-75
+12-->[:DataCollectionLib] D:\btw\dickies_inventory\DataCollectionLib\build\.transforms\842809632a5f9eaced70ddebb0f7623d\transformed\jetified-DataCollection\AndroidManifest.xml:11:5-78
+12-->[:DataCollectionLib] D:\btw\dickies_inventory\DataCollectionLib\build\.transforms\842809632a5f9eaced70ddebb0f7623d\transformed\jetified-DataCollection\AndroidManifest.xml:11:22-75
 13
 14    <application
-14-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:9:5-52:19
+14-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:9:5-52:19
 15        android:allowBackup="true"
-15-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:10:9-35
+15-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:10:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 16-->[androidx.core:core:1.5.0] C:\Users\Chiela\.gradle\caches\transforms-3\4cb2d3ae910a25e4d3b75b6b0d8d1b11\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 17        android:debuggable="true"
-17-->[:DataCollectionLib] D:\btw\guess_inventory\DataCollectionLib\build\.transforms\6ffde9f299e8b04a57539c8474e8d7fa\transformed\jetified-DataCollection\AndroidManifest.xml:15:9-35
+17-->[:DataCollectionLib] D:\btw\dickies_inventory\DataCollectionLib\build\.transforms\842809632a5f9eaced70ddebb0f7623d\transformed\jetified-DataCollection\AndroidManifest.xml:15:9-35
 18        android:extractNativeLibs="false"
 19        android:icon="@drawable/barcode_example_icon"
-19-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:11:9-54
+19-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:11:9-54
 20        android:label="@string/app_name"
-20-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:12:9-41
+20-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:12:9-41
 21        android:testOnly="true"
 22        android:theme="@style/AppTheme" >
-22-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:13:9-40
+22-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:13:9-40
 23        <activity
-23-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:14:9-16:40
+23-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:14:9-16:40
 24            android:name="com.btw.dickies.activities.ProductLoadActivity"
-24-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:15:13-74
+24-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:15:13-74
 25            android:exported="false" />
-25-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:16:13-37
+25-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:16:13-37
 26        <activity android:name="com.btw.dickies.activities.ScanTransactionActivity" />
-26-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:17:9-87
-26-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:17:19-84
+26-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:17:9-87
+26-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:17:19-84
 27        <activity android:name="com.btw.dickies.activities.InventoryScanActivity" />
-27-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:18:9-85
-27-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:18:19-82
+27-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:18:9-85
+27-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:18:19-82
 28        <activity android:name="com.btw.dickies.activities.UserChangePasswordActivity" />
-28-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:20:9-90
-28-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:20:19-87
+28-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:20:9-90
+28-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:20:19-87
 29        <activity android:name="com.btw.dickies.activities.UserNewActivity" />
-29-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:21:9-79
-29-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:21:19-76
+29-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:21:9-79
+29-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:21:19-76
 30        <activity android:name="com.btw.dickies.activities.ModelRegisterActivity" />
-30-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:22:9-85
-30-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:22:19-82
+30-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:22:9-85
+30-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:22:19-82
 31        <activity android:name="com.btw.dickies.activities.ModelViewActivity" />
-31-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:23:9-81
-31-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:23:19-78
+31-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:23:9-81
+31-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:23:19-78
 32        <activity android:name="com.btw.dickies.activities.MenuActivity" />
-32-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:24:9-76
-32-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:24:19-73
+32-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:24:9-76
+32-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:24:19-73
 33        <activity
-33-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:25:9-32:20
+33-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:25:9-32:20
 34            android:name="com.btw.dickies.activities.LoginActivity"
-34-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:26:13-68
+34-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:26:13-68
 35            android:exported="true" >
-35-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:27:13-36
+35-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:27:13-36
 36            <intent-filter>
-36-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:28:13-31:29
+36-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:28:13-31:29
 37                <action android:name="android.intent.action.MAIN" />
-37-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:29:17-69
-37-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:29:25-66
+37-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:29:17-69
+37-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:29:25-66
 38
 39                <category android:name="android.intent.category.LAUNCHER" />
-39-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:30:17-77
-39-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:30:27-74
+39-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:30:17-77
+39-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:30:27-74
 40            </intent-filter>
 41        </activity>
 42        <activity
-42-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:33:9-37:20
+42-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:33:9-37:20
 43            android:name="com.btw.dickies.activities.MainActivity"
-43-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:34:13-67
+43-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:34:13-67
 44            android:exported="true" >
-44-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:35:13-36
+44-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:35:13-36
 45        </activity>
 46        <activity
-46-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:38:9-44:20
+46-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:38:9-44:20
 47            android:name="com.btw.dickies.activities.RegisterActivity"
-47-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:39:13-71
+47-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:39:13-71
 48            android:exported="true" >
-48-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:40:13-36
+48-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:40:13-36
 49            <intent-filter>
-49-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:41:13-43:29
+49-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:41:13-43:29
 50                <category android:name="android.intent.category.DEFAULT" />
-50-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:42:17-76
-50-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:42:27-73
+50-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:42:17-76
+50-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:42:27-73
 51            </intent-filter>
 52        </activity>
 53        <activity
-53-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:45:9-51:20
+53-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:45:9-51:20
 54            android:name="com.btw.dickies.activities.ViewUserActivity"
-54-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:46:13-71
+54-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:46:13-71
 55            android:exported="true" >
-55-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:47:13-36
+55-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:47:13-36
 56            <intent-filter>
-56-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:41:13-43:29
+56-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:41:13-43:29
 57                <category android:name="android.intent.category.DEFAULT" />
-57-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:42:17-76
-57-->D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:42:27-73
+57-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:42:17-76
+57-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:42:27-73
 58            </intent-filter>
 59        </activity>
 60    </application>

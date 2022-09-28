@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:2:1-53:12
-MERGED from [:DataCollectionLib] D:\btw\guess_inventory\DataCollectionLib\build\.transforms\6ffde9f299e8b04a57539c8474e8d7fa\transformed\jetified-DataCollection\AndroidManifest.xml:2:1-19:12
+ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:2:1-53:12
+MERGED from [:DataCollectionLib] D:\btw\dickies_inventory\DataCollectionLib\build\.transforms\842809632a5f9eaced70ddebb0f7623d\transformed\jetified-DataCollection\AndroidManifest.xml:2:1-19:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Chiela\.gradle\caches\transforms-3\4ef90adad18b5288d39c67de2442b729\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Chiela\.gradle\caches\transforms-3\b3639cbe0951640ed2ce29bbc475de82\transformed\material-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Chiela\.gradle\caches\transforms-3\269e4029f92be0f4884805b72f00e70b\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
@@ -53,31 +53,31 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\Chiela\.gradle\caches\transforms-3\bd2b858bc6569916fd0b165974e7ef03\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Chiela\.gradle\caches\transforms-3\f11a2796b54455e05ab8603854e4e469\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Chiela\.gradle\caches\transforms-3\282c8ecd244afdef0de7b207615be224\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:2:1-53:12
 	package
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:3:5-30
-		INJECTED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml
-		INJECTED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml
+		INJECTED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:5:5-39
-		INJECTED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml
-		INJECTED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:5:5-39
+		INJECTED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml
+		INJECTED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:4:5-36
-		INJECTED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml
-		INJECTED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:4:5-36
+		INJECTED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml
+		INJECTED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:7:5-81
+ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:7:22-78
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:7:22-78
 application
-ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:9:5-52:19
-MERGED from [:DataCollectionLib] D:\btw\guess_inventory\DataCollectionLib\build\.transforms\6ffde9f299e8b04a57539c8474e8d7fa\transformed\jetified-DataCollection\AndroidManifest.xml:13:5-17:19
-MERGED from [:DataCollectionLib] D:\btw\guess_inventory\DataCollectionLib\build\.transforms\6ffde9f299e8b04a57539c8474e8d7fa\transformed\jetified-DataCollection\AndroidManifest.xml:13:5-17:19
+ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:9:5-52:19
+MERGED from [:DataCollectionLib] D:\btw\dickies_inventory\DataCollectionLib\build\.transforms\842809632a5f9eaced70ddebb0f7623d\transformed\jetified-DataCollection\AndroidManifest.xml:13:5-17:19
+MERGED from [:DataCollectionLib] D:\btw\dickies_inventory\DataCollectionLib\build\.transforms\842809632a5f9eaced70ddebb0f7623d\transformed\jetified-DataCollection\AndroidManifest.xml:13:5-17:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Chiela\.gradle\caches\transforms-3\b3639cbe0951640ed2ce29bbc475de82\transformed\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Chiela\.gradle\caches\transforms-3\b3639cbe0951640ed2ce29bbc475de82\transformed\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Chiela\.gradle\caches\transforms-3\269e4029f92be0f4884805b72f00e70b\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -89,95 +89,95 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ch
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] C:\Users\Chiela\.gradle\caches\transforms-3\4cb2d3ae910a25e4d3b75b6b0d8d1b11\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:12:9-41
 	android:debuggable
-		ADDED from [:DataCollectionLib] D:\btw\guess_inventory\DataCollectionLib\build\.transforms\6ffde9f299e8b04a57539c8474e8d7fa\transformed\jetified-DataCollection\AndroidManifest.xml:15:9-35
+		ADDED from [:DataCollectionLib] D:\btw\dickies_inventory\DataCollectionLib\build\.transforms\842809632a5f9eaced70ddebb0f7623d\transformed\jetified-DataCollection\AndroidManifest.xml:15:9-35
 	android:icon
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:11:9-54
 	android:allowBackup
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:13:9-40
 activity#com.btw.dickies.activities.ProductLoadActivity
-ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:14:9-16:40
+ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:14:9-16:40
 	android:exported
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:16:13-37
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:16:13-37
 	android:name
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:15:13-74
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:15:13-74
 activity#com.btw.dickies.activities.ScanTransactionActivity
-ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:17:9-87
+ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:17:9-87
 	android:name
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:17:19-84
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:17:19-84
 activity#com.btw.dickies.activities.InventoryScanActivity
-ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:18:9-85
+ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:18:9-85
 	android:name
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:18:19-82
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:18:19-82
 activity#com.btw.dickies.activities.UserChangePasswordActivity
-ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:20:9-90
+ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:20:9-90
 	android:name
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:20:19-87
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:20:19-87
 activity#com.btw.dickies.activities.UserNewActivity
-ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:21:9-79
+ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:21:9-79
 	android:name
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:21:19-76
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:21:19-76
 activity#com.btw.dickies.activities.ModelRegisterActivity
-ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:22:9-85
+ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:22:9-85
 	android:name
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:22:19-82
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:22:19-82
 activity#com.btw.dickies.activities.ModelViewActivity
-ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:23:9-81
+ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:23:9-81
 	android:name
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:23:19-78
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:23:19-78
 activity#com.btw.dickies.activities.MenuActivity
-ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:24:9-76
+ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:24:9-76
 	android:name
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:24:19-73
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:24:19-73
 activity#com.btw.dickies.activities.LoginActivity
-ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:25:9-32:20
+ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:25:9-32:20
 	android:exported
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:27:13-36
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:27:13-36
 	android:name
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:26:13-68
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:26:13-68
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:28:13-31:29
+ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:28:13-31:29
 action#android.intent.action.MAIN
-ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:29:17-69
+ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:29:25-66
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:30:27-74
 activity#com.btw.dickies.activities.MainActivity
-ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:33:9-37:20
+ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:33:9-37:20
 	android:exported
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:35:13-36
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:35:13-36
 	android:name
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:34:13-67
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:34:13-67
 activity#com.btw.dickies.activities.RegisterActivity
-ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:38:9-44:20
+ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:38:9-44:20
 	android:exported
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:40:13-36
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:40:13-36
 	android:name
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:39:13-71
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:39:13-71
 intent-filter#category:name:android.intent.category.DEFAULT
-ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:41:13-43:29
+ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:41:13-43:29
 category#android.intent.category.DEFAULT
-ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:42:17-76
+ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:42:17-76
 	android:name
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:42:27-73
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:42:27-73
 activity#com.btw.dickies.activities.ViewUserActivity
-ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:45:9-51:20
+ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:45:9-51:20
 	android:exported
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:47:13-36
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:47:13-36
 	android:name
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml:46:13-71
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:46:13-71
 uses-sdk
-INJECTED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml
-INJECTED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml
-MERGED from [:DataCollectionLib] D:\btw\guess_inventory\DataCollectionLib\build\.transforms\6ffde9f299e8b04a57539c8474e8d7fa\transformed\jetified-DataCollection\AndroidManifest.xml:7:5-9:41
-MERGED from [:DataCollectionLib] D:\btw\guess_inventory\DataCollectionLib\build\.transforms\6ffde9f299e8b04a57539c8474e8d7fa\transformed\jetified-DataCollection\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml
+INJECTED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml
+MERGED from [:DataCollectionLib] D:\btw\dickies_inventory\DataCollectionLib\build\.transforms\842809632a5f9eaced70ddebb0f7623d\transformed\jetified-DataCollection\AndroidManifest.xml:7:5-9:41
+MERGED from [:DataCollectionLib] D:\btw\dickies_inventory\DataCollectionLib\build\.transforms\842809632a5f9eaced70ddebb0f7623d\transformed\jetified-DataCollection\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Chiela\.gradle\caches\transforms-3\4ef90adad18b5288d39c67de2442b729\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Chiela\.gradle\caches\transforms-3\4ef90adad18b5288d39c67de2442b729\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Chiela\.gradle\caches\transforms-3\b3639cbe0951640ed2ce29bbc475de82\transformed\material-1.3.0\AndroidManifest.xml:20:5-44
@@ -274,17 +274,17 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Chiela\.gradle\c
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Chiela\.gradle\caches\transforms-3\f11a2796b54455e05ab8603854e4e469\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Chiela\.gradle\caches\transforms-3\282c8ecd244afdef0de7b207615be224\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Chiela\.gradle\caches\transforms-3\282c8ecd244afdef0de7b207615be224\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-INJECTED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml
-INJECTED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml
+INJECTED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml
+INJECTED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml
-		INJECTED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml
+		INJECTED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml
+		INJECTED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml
-		ADDED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml
-		INJECTED from D:\btw\guess_inventory\app\src\main\AndroidManifest.xml
+		INJECTED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml
+		ADDED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml
+		INJECTED from D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml
 uses-permission#com.honeywell.decode.permission.DECODE
-ADDED from [:DataCollectionLib] D:\btw\guess_inventory\DataCollectionLib\build\.transforms\6ffde9f299e8b04a57539c8474e8d7fa\transformed\jetified-DataCollection\AndroidManifest.xml:11:5-78
+ADDED from [:DataCollectionLib] D:\btw\dickies_inventory\DataCollectionLib\build\.transforms\842809632a5f9eaced70ddebb0f7623d\transformed\jetified-DataCollection\AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from [:DataCollectionLib] D:\btw\guess_inventory\DataCollectionLib\build\.transforms\6ffde9f299e8b04a57539c8474e8d7fa\transformed\jetified-DataCollection\AndroidManifest.xml:11:22-75
+		ADDED from [:DataCollectionLib] D:\btw\dickies_inventory\DataCollectionLib\build\.transforms\842809632a5f9eaced70ddebb0f7623d\transformed\jetified-DataCollection\AndroidManifest.xml:11:22-75
