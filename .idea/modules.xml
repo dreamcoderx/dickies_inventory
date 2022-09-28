@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/guess_inventory.iml" filepath="$PROJECT_DIR$/.idea/modules/guess_inventory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DataCollectionLib/guess_inventory.DataCollectionLib.iml" filepath="$PROJECT_DIR$/.idea/modules/DataCollectionLib/guess_inventory.DataCollectionLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/guess_inventory.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/guess_inventory.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/guess_inventory.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/guess_inventory.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/guess_inventory.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/guess_inventory.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/guess_inventory.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/guess_inventory.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
