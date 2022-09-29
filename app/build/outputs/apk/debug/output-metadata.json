@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.btw.dickies",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 197000022,
+      "versionName": "1.97.00.0022",
+      "outputFile": "debug-1.97.00.0022.apk"
+    }
+  ],
+  "elementType": "File"
+}

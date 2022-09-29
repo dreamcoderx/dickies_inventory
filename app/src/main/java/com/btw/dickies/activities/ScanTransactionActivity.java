@@ -89,7 +89,7 @@ public class ScanTransactionActivity
         } else if(v.getId()==R.id.btnScanSelTo){
             setDate(etToDate);
         } else if(v.getId()== R.id.btnScanSaveCSV){
-            String s = etFromDate.getText() + " to " + etToDate.getText();
+            String s = "output" ;//etFromDate.getText() + " to " + etToDate.getText();
             s = s + ".dat";
             if (createCsv(s)){
                 Toast.makeText(this, s + "- created", Toast.LENGTH_SHORT).show();
@@ -172,18 +172,19 @@ public class ScanTransactionActivity
         if(file.exists()) {
             file.delete();
         }
-        String strRack, strRow, strBarcode, strQty, strDateTime;
+        String strRack, strRow, strLineNo ,strBarcode, strQty, strDateTime;
 
         try {
             FileWriter writer = new FileWriter(file);
-            //writer.append("KANBAN,  LOCATION, DATE TIME, SCAN BY, LINE LEADER, STATUS \n");
+            writer.append("RACK,  ROW, LINE NO ,BARCODE, BARCODE, QTY, DATE TIME \n");
             for (int i = 0; i < listScan.size(); i++) {
                 String w = "";
-
-                //101 ,1   ,1111117966857       ,1     ,04/11/2022,22:49:48
+                strRack = listScan.get(i).getRack();
+                strRow = listScan.get(i).getRowScan();
                 strBarcode = listScan.get(i).getBarcode();
                 strQty = String.valueOf(listScan.get(i).getQty()) ;
-                strDateTime = "";//arrList.get(i).getDate_time();
+                strDateTime = listScan.get(i).getDateTime();
+                strLineNo =  valueOf(listScan.get(i).getLineNo()) ;
 
                 try {
                     SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
@@ -194,9 +195,15 @@ public class ScanTransactionActivity
                     Log.v("Exception", ex.getLocalizedMessage());
                 }
 
+                strRack = String.format("%-4s",strRack);
+                strRow = String.format("%-4s",strRow);
+                strLineNo = String.format("%-4s",strLineNo);
                 strBarcode = String.format("%-20s",strBarcode);
                 strQty = String.format("%-6s",strQty);
 
+                w = cp(w, strRack);
+                w = cp(w, strRow);
+                w = cp(w, strLineNo);
                 w = cp(w, strBarcode);
                 w = cp(w, strQty);
                 w = cp(w, strDateTime);

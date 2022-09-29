@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.btw.guess"
+3    package="com.btw.dickies"
 4    android:versionCode="197000022"
 5    android:versionName="1.97.00.0022" >
 6
@@ -30,86 +30,85 @@
 19-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:11:9-54
 20        android:label="@string/app_name"
 20-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:12:9-41
-21        android:testOnly="true"
-22        android:theme="@style/AppTheme" >
-22-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:13:9-40
-23        <activity
-23-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:14:9-16:40
-24            android:name="com.btw.dickies.activities.ProductLoadActivity"
-24-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:15:13-74
-25            android:exported="false" />
-25-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:16:13-37
-26        <activity android:name="com.btw.dickies.activities.ScanTransactionActivity" />
-26-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:17:9-87
-26-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:17:19-84
-27        <activity android:name="com.btw.dickies.activities.InventoryScanActivity" />
-27-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:18:9-85
-27-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:18:19-82
-28        <activity android:name="com.btw.dickies.activities.UserChangePasswordActivity" />
-28-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:20:9-90
-28-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:20:19-87
-29        <activity android:name="com.btw.dickies.activities.UserNewActivity" />
-29-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:21:9-79
-29-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:21:19-76
-30        <activity android:name="com.btw.dickies.activities.ModelRegisterActivity" />
-30-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:22:9-85
-30-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:22:19-82
-31        <activity android:name="com.btw.dickies.activities.ModelViewActivity" />
-31-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:23:9-81
-31-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:23:19-78
-32        <activity android:name="com.btw.dickies.activities.MenuActivity" />
-32-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:24:9-76
-32-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:24:19-73
-33        <activity
-33-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:25:9-32:20
-34            android:name="com.btw.dickies.activities.LoginActivity"
-34-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:26:13-68
-35            android:exported="true" >
-35-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:27:13-36
-36            <intent-filter>
-36-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:28:13-31:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:29:17-69
-37-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:29:25-66
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:30:17-77
-39-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:30:27-74
-40            </intent-filter>
-41        </activity>
-42        <activity
-42-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:33:9-37:20
-43            android:name="com.btw.dickies.activities.MainActivity"
-43-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:34:13-67
-44            android:exported="true" >
-44-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:35:13-36
-45        </activity>
-46        <activity
-46-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:38:9-44:20
-47            android:name="com.btw.dickies.activities.RegisterActivity"
-47-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:39:13-71
-48            android:exported="true" >
-48-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:40:13-36
-49            <intent-filter>
-49-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:41:13-43:29
-50                <category android:name="android.intent.category.DEFAULT" />
-50-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:42:17-76
-50-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:42:27-73
-51            </intent-filter>
-52        </activity>
-53        <activity
-53-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:45:9-51:20
-54            android:name="com.btw.dickies.activities.ViewUserActivity"
-54-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:46:13-71
-55            android:exported="true" >
-55-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:47:13-36
-56            <intent-filter>
-56-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:41:13-43:29
-57                <category android:name="android.intent.category.DEFAULT" />
-57-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:42:17-76
-57-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:42:27-73
-58            </intent-filter>
-59        </activity>
-60    </application>
-61
-62</manifest>
+21        android:theme="@style/AppTheme" >
+21-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:13:9-40
+22        <activity
+22-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:14:9-16:40
+23            android:name="com.btw.dickies.activities.ProductLoadActivity"
+23-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:15:13-74
+24            android:exported="false" />
+24-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:16:13-37
+25        <activity android:name="com.btw.dickies.activities.ScanTransactionActivity" />
+25-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:17:9-87
+25-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:17:19-84
+26        <activity android:name="com.btw.dickies.activities.InventoryScanActivity" />
+26-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:18:9-85
+26-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:18:19-82
+27        <activity android:name="com.btw.dickies.activities.UserChangePasswordActivity" />
+27-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:20:9-90
+27-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:20:19-87
+28        <activity android:name="com.btw.dickies.activities.UserNewActivity" />
+28-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:21:9-79
+28-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:21:19-76
+29        <activity android:name="com.btw.dickies.activities.ModelRegisterActivity" />
+29-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:22:9-85
+29-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:22:19-82
+30        <activity android:name="com.btw.dickies.activities.ModelViewActivity" />
+30-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:23:9-81
+30-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:23:19-78
+31        <activity android:name="com.btw.dickies.activities.MenuActivity" />
+31-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:24:9-76
+31-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:24:19-73
+32        <activity
+32-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:25:9-32:20
+33            android:name="com.btw.dickies.activities.LoginActivity"
+33-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:26:13-68
+34            android:exported="true" >
+34-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:27:13-36
+35            <intent-filter>
+35-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:28:13-31:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:29:17-69
+36-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:29:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:30:17-77
+38-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:30:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:33:9-37:20
+42            android:name="com.btw.dickies.activities.MainActivity"
+42-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:34:13-67
+43            android:exported="true" >
+43-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:35:13-36
+44        </activity>
+45        <activity
+45-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:38:9-44:20
+46            android:name="com.btw.dickies.activities.RegisterActivity"
+46-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:39:13-71
+47            android:exported="true" >
+47-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:40:13-36
+48            <intent-filter>
+48-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:41:13-43:29
+49                <category android:name="android.intent.category.DEFAULT" />
+49-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:42:17-76
+49-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:42:27-73
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:45:9-51:20
+53            android:name="com.btw.dickies.activities.ViewUserActivity"
+53-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:46:13-71
+54            android:exported="true" >
+54-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:47:13-36
+55            <intent-filter>
+55-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:41:13-43:29
+56                <category android:name="android.intent.category.DEFAULT" />
+56-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:42:17-76
+56-->D:\btw\dickies_inventory\app\src\main\AndroidManifest.xml:42:27-73
+57            </intent-filter>
+58        </activity>
+59    </application>
+60
+61</manifest>

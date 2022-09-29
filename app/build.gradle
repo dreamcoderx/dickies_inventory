@@ -4,7 +4,7 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-        applicationId 'com.btw.guess'
+        applicationId 'com.btw.dickies'
         minSdkVersion 24
         targetSdkVersion 30
     }
