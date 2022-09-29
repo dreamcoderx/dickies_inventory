@@ -117,54 +117,7 @@ public class ScanTransactionActivity
                 }, year, month, day);
         picker.show();
     }
-
-    private boolean saveData(){
-        boolean rv = false;
-        try {
-            String path = this.getExternalFilesDir(Environment.DIRECTORY_DOCUMENTS).getAbsolutePath();
-            File file = new File(path , "scan.dat");
-
-            SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy, HH:mm:ss");
-            String curDateTime = sdf.format(new Date());
-
-            String strRack, strRow, strBarcode, strQty, strData;
-            //101 ,1   ,1111117966857       ,1     ,04/11/2022,22:49:48
-            //rack,row, barcode, qty, date, time (MM/dd/yyyy, HH:mm:ss)
-            //101 ,1   ,1111117966857       ,1     ,04/11/2022,22:49:48
-
-            //strRack = etRack.getText().toString();
-            //strRow = etRow.getText().toString();
-            //strBarcode = etBarcode.getText().toString();
-            //strQty = etQty.getText().toString();
-            //strLineNo = etLineNo.getText().toString();
-
-
-            //strRack = String.format("%-4s",strRack);
-            //strRow = String.format("%-4s",strRow);
-            //strLineNo = String.format("%-4s",strLineNo);
-            //strBarcode = String.format("%-20s",strBarcode);
-            //strQty = String.format("%-6s",strQty);
-
-
-            //strData = strRack+ "," + strRow + ","  + strBarcode + ","  + strQty + "," + curDateTime;
-
-            FileWriter writer = new FileWriter(file, true);
-            //writer.append(strData + "\n");
-
-            writer.flush();
-            writer.close();
-
-            Toast.makeText(this, "Successfully Save to " + file.getAbsolutePath().toString(), Toast.LENGTH_SHORT).show();
-
-
-            rv= true;
-        } catch (Exception e) {
-            Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
-            e.printStackTrace();
-        }
-        return rv;
-    }
-
+    
     private boolean createCsv(String filename){
         boolean rv = false;
         String path = this.getExternalFilesDir(Environment.DIRECTORY_DOCUMENTS).getAbsolutePath();
@@ -176,7 +129,7 @@ public class ScanTransactionActivity
 
         try {
             FileWriter writer = new FileWriter(file);
-            writer.append("RACK,  ROW, LINE NO ,BARCODE, BARCODE, QTY, DATE TIME \n");
+            writer.append("RACK, ROW, LINE NO, BARCODE, BARCODE, QTY, DATE TIME \n");
             for (int i = 0; i < listScan.size(); i++) {
                 String w = "";
                 strRack = listScan.get(i).getRack();
